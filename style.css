@@ -3,6 +3,20 @@ body, html {
   margin: 0;
 }
 
+h6 {
+  margin: 0;
+  color: rgb(216, 216, 216);
+}
+
+h1 {
+  margin: 20px;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+
 .bgimg {
   background-image: url('https://wallpapershome.com/images/pages/pic_h/6505.jpg');
   height: 100%;
@@ -17,13 +31,11 @@ body, html {
 .topleft {
   position: absolute;
   top: 0;
-  left: 16px;
+  padding: 20px;
 }
 
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
+.topleft img {
+  width: 200px;
 }
 
 .middle {
@@ -34,7 +46,7 @@ body, html {
   text-align: center;
 }
 
-hr {
-  margin: auto;
-  width: 40%;
+#timer {
+  color: rgb(216, 216, 216);
+  margin: 5px;
 }
