@@ -1,0 +1,38 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7b7b7b;
+  margin-top: 50px;
+}
+
+a:visited {
+  color: #7b7b7b;
+}
+
+a:link {
+  color: #7b7b7b;
+}
+
+.box {
+  background-color: #000014;
+  height: 100%;
+  position: relative;
+}
+
+.middle img {
+  width: 400px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
